@@ -3,18 +3,17 @@ import { NavLink } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="flex flex-wrap justify-evenly items-center bg-gray-100">
-      <div>
+    <div className="flex flex-wrap justify-evenly items-center bg-gray-100 sm:pb-10 sm:text-center">
+      <div className="w-[400px]">
         <dotlottie-player
           src="https://lottie.host/e11fc5c1-6fb9-4dc5-b2b2-611a486184bb/9pqPqLI4CN.json"
           background="transparent"
           speed="1"
-          style={{ width: "500px", height: "500px" }}
           loop
           autoplay
         ></dotlottie-player>
       </div>
-      <div className="max-w-[550px]">
+      <div className="max-w-[500px] px-6">
         <h1 className="text-3xl text-slate-700 pb-2">
           Hi, I am{" "}
           <span className="font-bold text-yellow-600">Paul Lakandri</span>
